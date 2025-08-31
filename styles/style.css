@@ -29,3 +29,50 @@
     color: #E5E7EB;
     font-size: 18px;
 }
+
+
+/* Hero banner */
+.hero{
+    padding: 32px inherit;
+    height: 400px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    margin-right: 64px;
+}
+
+.description h1, .description p, .description div{
+    margin-top: 16px;
+    flex: 1;
+}
+
+.hero img{
+    width: 800px;
+    flex 1.5;
+}
+
+.description p{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.button{
+    background-color: #3882f6;
+    width: 80px;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 8px;
+    flex: 1 1 auto;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
