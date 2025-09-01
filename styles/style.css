@@ -58,7 +58,9 @@ h1{
 }
 
 .hero img{
-    width: 800px;
+    flex: 0.5 1 0;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .description p{
@@ -150,3 +152,34 @@ h1{
 
 
 /* CTA section */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 40px;
+}
+
+.cta-text h3, .cta-text p{
+    color: white;
+}
+
+.cta-text{
+    flex: 1 1 0
+}
+
+
+.cta-box{
+    display: flex;
+    align-items: center;
+    background: #3882f6;
+    padding: 20px 40px;
+    width: 800px;
+    border-radius: 8px;
+}
+
+.button.two{
+    border: 2px solid white;
+    align-self: flex-end;
+    flex: .14 1 auto;
+}
