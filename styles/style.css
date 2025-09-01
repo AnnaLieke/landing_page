@@ -35,7 +35,7 @@
 
 /* Hero banner */
 .hero{
-    padding: 32px inherit;
+    padding: 40px inherit;
     height: 500px;
 }
 
@@ -58,7 +58,7 @@ h1{
 }
 
 .hero img{
-    flex: 0.5 1 0;
+    flex: 0.5 1 auto;
     max-width: 600px;
     max-height: 400px;
 }
@@ -93,7 +93,7 @@ h1{
     height: auto;
     align-items: center;
     justify-content: center;
-    margin: 32px 0;
+    margin: 80px 0;
 }
 
 .usp ul{
@@ -127,7 +127,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 40px;
+    padding: 80px 40px;
 }
 
 .quote .content{
@@ -157,7 +157,7 @@ h1{
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 40px 40px;
+    padding: 80px 40px;
 }
 
 .cta-text h3, .cta-text p{
@@ -182,4 +182,14 @@ h1{
     border: 2px solid white;
     align-self: flex-end;
     flex: .14 1 auto;
+}
+
+/* Footer */
+
+.footer{
+    background: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 8px 0;
+    font-size: 14px;
 }
