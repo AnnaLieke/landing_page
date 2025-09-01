@@ -116,3 +116,37 @@ h1{
     margin: 0 0 24px 0;
     box-sizing: border-box;
 }
+
+
+/* Quote section */
+
+.quote{
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px;
+}
+
+.quote .content{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.qtext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 32px;
+    max-width: 800px;
+}
+
+.quoted {
+    align-self:flex-end;
+    font-weight: 700;
+}
+
+
+/* CTA section */
